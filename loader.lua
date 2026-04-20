@@ -1,7 +1,7 @@
 repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 
 local API_URL = "https://bot-key-api.onrender.com/api/verify"
-local SCRIPT_URL = "loadstring(game:HttpGet("https://raw.githubusercontent.com/megumi668/AMETHYSTHUB/refs/heads/main/AMETHYSTHUB.lua"))()"
+local SCRIPT_URL = "https://raw.githubusercontent.com/megumi668/AMETHYSTHUB/refs/heads/main/AMETHYSTHUB.lua"
 
 local hwid = tostring(game:GetService("RbxAnalyticsService"):GetClientId())
 if not hwid or hwid == "" then
